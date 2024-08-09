@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def get_db_connection():
     conn = psycopg2.connect(host='pglab11-olivia21224-9276.k.aivencloud.com',
-                            database='defaultdb',
+                            database='defaultdb', 
                             user='avnadmin',
                             password='AVNS__ExAl6HJYJr9Mz1yGm_')
     return conn
