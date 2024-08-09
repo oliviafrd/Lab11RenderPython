@@ -5,7 +5,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 def get_db_connection():
-    conn = psycopg2.connect(host='dpg-cqocjstsvqrc73ff30c0-a',
+    conn = psycopg2.connect(host='dpg-cqocjstsvqrc73ff30c0-a.oregon-postgres.render.com',
                             database='lab11db',
                             user='lab11db_user',
                             password='6vsGcqBIs0E4XJFWm1eLCBm7aX4LNTIL')
